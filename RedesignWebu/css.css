@@ -1,0 +1,148 @@
+.body-kontejner img {
+
+    width: auto;
+    height: 300px;
+}
+
+* {
+    font-family: "Segoe UI";
+
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e3ffd3;
+    color: #434040;
+}
+
+nav{
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: #434040;
+    text-align: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-size: 23px;
+    font-weight: bold;
+    border-bottom: 2px solid #ffffff00
+}
+
+ul li a:hover {
+    background-color: #caffab;
+    border-bottom: 2px solid #434040;
+
+}
+
+.navigace {
+    padding: 20px 40px;
+    display: flex;
+    align-items: flex-end;
+    background-color: #caffab;
+}
+
+.navigace a {
+    padding-top: 0;
+}
+
+.navigace h1 {
+    margin: 0;
+}
+
+.svatek {
+    display: flex;
+    justify-content: center;
+    background-color: #263c26;
+    color: #caffab;
+}
+
+.body-kontejner h2 {
+    font-size: 30px;
+}
+
+.proste-vsechno-v-pravo-brachu {
+    display: flex;
+    justify-content: center;
+    background-color: #263c26;
+    color: #d6ffbf;
+    padding: 50px 150px;
+
+}
+
+.proste-text-v-pravo-brachu {
+    max-width: 693px;
+    padding-right: 100px;
+}
+
+.proste-vsechno-v-levo-brachu {
+    display: flex; justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 50px 150px;
+
+}
+.proste-text-v-levo-brachu {
+    max-width: 693px;
+    padding-left: 100px;
+    padding-right: 0;
+}
+
+.body-kontejner h2 {
+    padding: 0 150px;
+}
+
+.footer {
+    background-color: #263c26;
+    color: #d6ffbf;
+    padding: 40px 150px 20px 150px;
+    margin-top: 50px;
+}
+
+.footer-kontent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-sekce h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.footer-sekce p,
+.footer-sekce a {
+    color: #d6ffbf;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-section a:hover {
+    color: #caffab;
+    text-decoration: underline;
+}
+
+.footer-dole {
+    text-align: center;
+    border-top: 1px solid #caffab;
+    padding-top: 10px;
+    font-size: 14px;
+}
